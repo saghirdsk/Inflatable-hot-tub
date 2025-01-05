@@ -1,0 +1,201 @@
+/* General Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #222;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/hero-hot-tub.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 5rem 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  background: #f77d0e;
+  color: #fff;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.hero .btn:hover {
+  background: #e66a00;
+}
+
+/* Section Styles */
+.section {
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #f77d0e;
+}
+
+/* Benefits Section */
+.benefits {
+  background: #f9f9f9;
+}
+
+.benefit-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.benefit-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1.5rem;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-card i {
+  font-size: 2rem;
+  color: #f77d0e;
+  margin-bottom: 1rem;
+}
+
+.benefit-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Gallery Section */
+.gallery .image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  background: #f3f3f3;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background: #fff;
+  border-radius: 5px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.testimonial-card h4 {
+  text-align: right;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Contact Section */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  background: #f77d0e;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: #e66a00;
+}
+
+/* Footer Section */
+.footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer .social-links a {
+  color: #fff;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.footer .social-links a:hover {
+  color: #f77d0e;
+}
