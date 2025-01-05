@@ -199,3 +199,43 @@ a:hover {
 .footer .social-links a:hover {
   color: #f77d0e;
 }
+/* Gallery Navigation Buttons */
+.gallery-btn {
+  background: #f77d0e; /* Orange color matching the theme */
+  color: #fff;
+  border: none;
+  border-radius: 5px; /* Rounded corners */
+  padding: 0.5rem 1rem; /* Padding for size */
+  margin: 1rem; /* Spacing between buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Font size for readability */
+  transition: background 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.gallery-btn:hover {
+  background: #e66a00; /* Darker orange for hover */
+}
+
+/* Scroll-to-Top Button */
+.scroll-to-top {
+  position: fixed; /* Fixed position in the viewport */
+  bottom: 2rem; /* Distance from the bottom of the page */
+  right: 2rem; /* Distance from the right side of the page */
+  background: #f77d0e; /* Orange background matching the theme */
+  color: #fff;
+  border: none;
+  border-radius: 50%; /* Circle shape */
+  width: 3rem; /* Width of the button */
+  height: 3rem; /* Height of the button */
+  font-size: 1.5rem; /* Icon size */
+  cursor: pointer;
+  display: none; /* Initially hidden */
+  justify-content: center; /* Center the content (icon) */
+  align-items: center; /* Center the content (icon) */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: background 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.scroll-to-top:hover {
+  background: #e66a00; /* Darker orange for hover */
+}
